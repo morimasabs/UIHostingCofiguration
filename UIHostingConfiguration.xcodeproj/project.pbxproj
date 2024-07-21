@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3E887D402C4946250008600C /* CellConfiguration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CellConfiguration.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E887D402C4946250008600C /* UIHostingConfiguration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIHostingConfiguration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E887D432C4946250008600C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E887D452C4946250008600C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3E887D472C4946250008600C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		3E887D372C4946250008600C = {
 			isa = PBXGroup;
 			children = (
-				3E887D422C4946250008600C /* CellConfiguration */,
+				3E887D422C4946250008600C /* UIHostingConfiguration */,
 				3E887D412C4946250008600C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		3E887D412C4946250008600C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3E887D402C4946250008600C /* CellConfiguration.app */,
+				3E887D402C4946250008600C /* UIHostingConfiguration.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3E887D422C4946250008600C /* CellConfiguration */ = {
+		3E887D422C4946250008600C /* UIHostingConfiguration */ = {
 			isa = PBXGroup;
 			children = (
 				3E887D432C4946250008600C /* AppDelegate.swift */,
@@ -67,15 +67,15 @@
 				3E887D4C2C4946280008600C /* Assets.xcassets */,
 				3E887D512C4946280008600C /* Info.plist */,
 			);
-			path = CellConfiguration;
+			path = UIHostingConfiguration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3E887D3F2C4946250008600C /* CellConfiguration */ = {
+		3E887D3F2C4946250008600C /* UIHostingConfiguration */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3E887D542C4946280008600C /* Build configuration list for PBXNativeTarget "CellConfiguration" */;
+			buildConfigurationList = 3E887D542C4946280008600C /* Build configuration list for PBXNativeTarget "UIHostingConfiguration" */;
 			buildPhases = (
 				3E887D3C2C4946250008600C /* Sources */,
 				3E887D3D2C4946250008600C /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = CellConfiguration;
+			name = UIHostingConfiguration;
 			productName = CellConfiguration;
-			productReference = 3E887D402C4946250008600C /* CellConfiguration.app */;
+			productReference = 3E887D402C4946250008600C /* UIHostingConfiguration.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3E887D3B2C4946250008600C /* Build configuration list for PBXProject "CellConfiguration" */;
+			buildConfigurationList = 3E887D3B2C4946250008600C /* Build configuration list for PBXProject "UIHostingConfiguration" */;
 			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3E887D3F2C4946250008600C /* CellConfiguration */,
+				3E887D3F2C4946250008600C /* UIHostingConfiguration */,
 			);
 		};
 /* End PBXProject section */
@@ -281,7 +281,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U846247ZJT;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CellConfiguration/Info.plist;
+				INFOPLIST_FILE = UIHostingConfiguration/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -291,7 +291,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sample.CellConfiguration;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.UIHostingConfiguration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -308,7 +308,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U846247ZJT;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CellConfiguration/Info.plist;
+				INFOPLIST_FILE = UIHostingConfiguration/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -318,7 +318,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sample.CellConfiguration;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.UIHostingConfiguration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -329,7 +329,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3E887D3B2C4946250008600C /* Build configuration list for PBXProject "CellConfiguration" */ = {
+		3E887D3B2C4946250008600C /* Build configuration list for PBXProject "UIHostingConfiguration" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3E887D522C4946280008600C /* Debug */,
@@ -338,7 +338,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3E887D542C4946280008600C /* Build configuration list for PBXNativeTarget "CellConfiguration" */ = {
+		3E887D542C4946280008600C /* Build configuration list for PBXNativeTarget "UIHostingConfiguration" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3E887D552C4946280008600C /* Debug */,

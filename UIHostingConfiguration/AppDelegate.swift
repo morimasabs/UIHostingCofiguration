@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  CellConfiguration
+//  UIHostingConfiguration
 //
 //  Created by Masahito Mori on 2024/07/18.
 //
