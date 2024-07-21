@@ -6,47 +6,29 @@
 //
 
 import UIKit
-import SwiftUI
 
 final class ViewController: UIViewController {
-    private let tableView = UITableView()
-    private let cellIdentifier = "sampleCell"
+    private let mainView = MainView()
+    private let adapter = TableViewAdapter()
+    static let cellIdentifier = "sampleCell"
     
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "CellConfiguration"
-        view.addSubview(tableView)
-        tableView.translatesAutoresizingMaskIntoConstraints = false
+        
+        view.addSubview(mainView)
+        mainView.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
-            tableView.topAnchor.constraint(equalTo: view.topAnchor),
-            tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
-            tableView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-            tableView.trailingAnchor.constraint(equalTo: view.trailingAnchor)
+            mainView.topAnchor.constraint(equalTo: view.topAnchor),
+            mainView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
+            mainView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            mainView.trailingAnchor.constraint(equalTo: view.trailingAnchor)
         ])
-        tableView.dataSource = self
-        tableView.delegate = self
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: cellIdentifier)
+        mainView.tableView.dataSource = adapter
+        mainView.tableView.delegate = adapter
+        mainView.tableView.register(UITableViewCell.self, forCellReuseIdentifier: UITableViewCell.description())
     }
 }
-
-extension ViewController: UITableViewDataSource {
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        30
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let reusableCell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier)
-        let cell = reusableCell ?? UITableViewCell()
-        cell.contentConfiguration = UIHostingConfiguration {
-            HStack {
-                Text("SampleCell")
-            }
-        }
-        return cell
-    }
-}
-
-extension ViewController: UITableViewDelegate {}
 
 #Preview {
     ViewController()
